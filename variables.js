@@ -1,39 +1,56 @@
-//inizializzazione di variabile con valore di tipo string
+//Script in cui vengono mostrati i valori che possono assumere le variabili in js.
+//Inizializzazione di variabile con valore di tipo string.
 let nomeUtente = "Macro";
-//inizializzazione di variabile con valore di tipo intera
+
+//Inizializzazione di variabile con valore di tipo intera.
 let numInt = 34;
-//inizializzazione di variabile con valore di tipo float
+
+//Inizializzazione di variabile con valore di tipo float.
 let numFP = 34.12;
-//inizializzazione di variabile con valore di tipo bool
+
+//Inizializzazione di variabile con valore di tipo bool.
 let bool = true;
-//inizializzazione di array
+
+//Inizializzazione di array.
 let arr = [1,2,3,4];
-//inizializzazione di oggetto con 2 attributi
+
+//Inizializzazione di oggetto con 2 attributi.
 let persona = {
     nome: "Fabio",
     cognome: "Rossi"
 };
-//inizializzazione di costante
+
+//Inizializzazione di costante.
 const pi = 3.1452;
 
-//stampa delle variabili
+//Stampa delle variabili.
 console.log(nomeUtente);
-//stampa di una stringa
+
+//Stampa di una stringa.
 console.log("Hello world ");
-//Modifica del valore
+
+//Modifica del valore.
 nomeUtente = "Marco";
-//stampa di due stringhe
+
+//Stampa di due stringhe concatenate.
 console.log("Hello World "+ nomeUtente);
+
+//Stampa numeri e booleano.
 console.log(numInt);
 console.log(numFP);
 console.log(bool);
-//stampa array
+
+//Stampa array.
 console.log(arr);
-//stampa oggetto
+
+//Stampa oggetto.
 console.log(persona);
-//stampa attributo
+
+//Stampa attributo.
 console.log(persona.nome);
-//stampa tipo della variabile
+
+//Stampa tipo della variabile.
 console.log(typeof persona.nome);
 
+//Stampa costante.
 console.log(pi);
