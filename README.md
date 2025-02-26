@@ -1,2 +1,2 @@
 # JSLearning
-Repository used to push the code written to learn Javascript.
+Repository used to push code written to learn Javascript.
